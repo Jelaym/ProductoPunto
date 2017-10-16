@@ -1,0 +1,10 @@
+<web-app>
+    <servlet>
+        <servlet-name>ServletProducto</servlet-name>
+        <servlet-class>productoPunto.ServletProducto</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletProducto</servlet-name>
+        <url-pattern>/ServletProducto</url-pattern>
+    </servlet-mapping>
+</web-app>
